@@ -1,0 +1,22 @@
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\bin\Debug\Bus Shedeul View.exe.config
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\bin\Debug\Bus Shedeul View.exe
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\bin\Debug\Bus Shedeul View.pdb
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus Shedeul View.csprojResolveAssemblyReference.cache
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.BusUI.resources
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.DriverUI.resources
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.LoginForm.resources
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.LocationUi.resources
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.Properties.Resources.resources
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus Shedeul View.csproj.GenerateResource.Cache
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus Shedeul View.exe
+c:\users\pritom\documents\visual studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus Shedeul View.pdb
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.BusShediulUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.WelcomeUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.LogInUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.AddAdminUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.ChangedPasswordUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.AboutBox1.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.StatusUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.ViewAllUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.HelperUI.resources
+C:\Users\PRITOM\Documents\Visual Studio 2015\Projects\Bus Shedeul View\Bus Shedeul View\obj\Debug\Bus_Shedeul_View.UIL.TypeOfTripUI.resources
