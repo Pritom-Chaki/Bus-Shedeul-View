@@ -47,15 +47,6 @@
             this.dateLabel = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.scheduleTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.busSheduleDataSet2 = new Bus_Shedeul_View.BusSheduleDataSet2();
-            this.scheduleTableTableAdapter = new Bus_Shedeul_View.BusSheduleDataSet2TableAdapters.ScheduleTableTableAdapter();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.busSheduleDataSet = new Bus_Shedeul_View.BusSheduleDataSet();
-            this.shedulTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.shedulTableTableAdapter1 = new Bus_Shedeul_View.BusSheduleDataSetTableAdapters.ShedulTableTableAdapter();
-            this.scheduleTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.scheduleTableBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.timeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.startFromDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.arriveToDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -66,18 +57,27 @@
             this.driverContactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.helperNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.helperContactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.scheduleTableBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.busSheduleDataSet2 = new Bus_Shedeul_View.BusSheduleDataSet2();
+            this.scheduleTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.scheduleTableTableAdapter = new Bus_Shedeul_View.BusSheduleDataSet2TableAdapters.ScheduleTableTableAdapter();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.busSheduleDataSet = new Bus_Shedeul_View.BusSheduleDataSet();
+            this.shedulTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.shedulTableTableAdapter1 = new Bus_Shedeul_View.BusSheduleDataSetTableAdapters.ShedulTableTableAdapter();
+            this.scheduleTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.shedulTableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.busSheduleDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.busSheduleDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.busSheduleDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shedulTableBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // shedulTableBindingSource
@@ -271,58 +271,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(1326, 333);
             this.dataGridView2.TabIndex = 2;
             // 
-            // scheduleTableBindingSource
-            // 
-            this.scheduleTableBindingSource.DataMember = "ScheduleTable";
-            this.scheduleTableBindingSource.DataSource = this.busSheduleDataSet2;
-            // 
-            // busSheduleDataSet2
-            // 
-            this.busSheduleDataSet2.DataSetName = "BusSheduleDataSet2";
-            this.busSheduleDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // scheduleTableTableAdapter
-            // 
-            this.scheduleTableTableAdapter.ClearBeforeFill = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groupBox1.Controls.Add(this.dateLabel);
-            this.groupBox1.Controls.Add(this.titelLabel);
-            this.groupBox1.Controls.Add(this.timeLabel);
-            this.groupBox1.Location = new System.Drawing.Point(399, 126);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBox1.Size = new System.Drawing.Size(572, 126);
-            this.groupBox1.TabIndex = 12;
-            this.groupBox1.TabStop = false;
-            // 
-            // busSheduleDataSet
-            // 
-            this.busSheduleDataSet.DataSetName = "BusSheduleDataSet";
-            this.busSheduleDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // shedulTableBindingSource1
-            // 
-            this.shedulTableBindingSource1.DataMember = "ShedulTable";
-            this.shedulTableBindingSource1.DataSource = this.busSheduleDataSet;
-            // 
-            // shedulTableTableAdapter1
-            // 
-            this.shedulTableTableAdapter1.ClearBeforeFill = true;
-            // 
-            // scheduleTableBindingSource1
-            // 
-            this.scheduleTableBindingSource1.DataMember = "ScheduleTable";
-            this.scheduleTableBindingSource1.DataSource = this.busSheduleDataSet2;
-            // 
-            // scheduleTableBindingSource2
-            // 
-            this.scheduleTableBindingSource2.DataMember = "ScheduleTable";
-            this.scheduleTableBindingSource2.DataSource = this.busSheduleDataSet2;
-            // 
             // timeDataGridViewTextBoxColumn
             // 
             this.timeDataGridViewTextBoxColumn.DataPropertyName = "Time";
@@ -393,6 +341,58 @@
             this.helperContactDataGridViewTextBoxColumn.Name = "helperContactDataGridViewTextBoxColumn";
             this.helperContactDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // scheduleTableBindingSource2
+            // 
+            this.scheduleTableBindingSource2.DataMember = "ScheduleTable";
+            this.scheduleTableBindingSource2.DataSource = this.busSheduleDataSet2;
+            // 
+            // busSheduleDataSet2
+            // 
+            this.busSheduleDataSet2.DataSetName = "BusSheduleDataSet2";
+            this.busSheduleDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // scheduleTableBindingSource
+            // 
+            this.scheduleTableBindingSource.DataMember = "ScheduleTable";
+            this.scheduleTableBindingSource.DataSource = this.busSheduleDataSet2;
+            // 
+            // scheduleTableTableAdapter
+            // 
+            this.scheduleTableTableAdapter.ClearBeforeFill = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.groupBox1.Controls.Add(this.dateLabel);
+            this.groupBox1.Controls.Add(this.titelLabel);
+            this.groupBox1.Controls.Add(this.timeLabel);
+            this.groupBox1.Location = new System.Drawing.Point(399, 126);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.groupBox1.Size = new System.Drawing.Size(572, 126);
+            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabStop = false;
+            // 
+            // busSheduleDataSet
+            // 
+            this.busSheduleDataSet.DataSetName = "BusSheduleDataSet";
+            this.busSheduleDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // shedulTableBindingSource1
+            // 
+            this.shedulTableBindingSource1.DataMember = "ShedulTable";
+            this.shedulTableBindingSource1.DataSource = this.busSheduleDataSet;
+            // 
+            // shedulTableTableAdapter1
+            // 
+            this.shedulTableTableAdapter1.ClearBeforeFill = true;
+            // 
+            // scheduleTableBindingSource1
+            // 
+            this.scheduleTableBindingSource1.DataMember = "ScheduleTable";
+            this.scheduleTableBindingSource1.DataSource = this.busSheduleDataSet2;
+            // 
             // ViewAllUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -414,14 +414,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.busSheduleDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.busSheduleDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shedulTableBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.scheduleTableBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
